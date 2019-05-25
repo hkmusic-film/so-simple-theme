@@ -2,7 +2,7 @@
 title: "Post: Future Date"
 date: 9999-12-31
 categories:
-  - Post
+  - Testing
 last_modified_at: 2017-03-09T12:45:25-05:00
 ---
 
