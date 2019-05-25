@@ -1,6 +1,6 @@
 ---
 title: "Layout: Post with Table Of Contents"
-category: Layout
+category: Testing
 tags:
   - table of contents
 ---
