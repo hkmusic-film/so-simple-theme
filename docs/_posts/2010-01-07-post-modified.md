@@ -1,7 +1,7 @@
 ---
 title: "Post: Modified Date"
 categories:
-  - Post Formats
+  - Testing
 tags:
   - Post Formats
   - readability
