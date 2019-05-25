@@ -1,7 +1,7 @@
 ---
 title: Edge Case
 layout: category
-permalink: edge-case/
+permalink: /categories/edge-case/
 taxonomy: Edge Case
 ---
 
