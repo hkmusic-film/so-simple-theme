@@ -1,7 +1,7 @@
 ---
 title: "Markup: Title *with* **Markdown**"
 categories:
-  - Markdown
+  - Testing
 tags:
   - css
   - html
