@@ -1,6 +1,6 @@
 ---
 categories:
-  - Edge Case
+  - Testing
 tags:
   - edge case
   - layout
