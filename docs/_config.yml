@@ -18,10 +18,10 @@
 remote_theme: mmistakes/so-simple-theme
 
 locale: en-US
-title: "So Simple"
-description: "A simple Jekyll theme for words and pictures."
+title: "HK Music n Film"
+description: "Testing Simple Theme"
 baseurl: "/so-simple-theme"
-url: "https://mmistakes.github.io"
+url: "hkmusic-film.github.io"
 logo: "/images/so-simple-site-logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
@@ -32,19 +32,17 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: "UA-2011187-2"
 disqus:
-  shortname: "sosimpletheme"
+  shortname: # "sosimpletheme"
 twitter:
-  username: "mmistakes"
-google_site_verification: "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+  username: # "mmistakes"
 
 # Liquid
 liquid:
   error_mode: strict
 
 # Build settings
-permalink: /:categories/:title/
+permalink: /:title/ # /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
@@ -57,8 +55,25 @@ paginate_path: /page:num/
 search_full_content: false
 
 # Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
+category_archive_path: "/categories/"
+tag_archive_path: "/tags/"
+
+jekyll-archives:
+  enabled:
+  - categories
+  - tags
+  layouts:
+    # year: categories
+    # month: categories
+    # day: categories
+    category: category
+    tag: tag
+  permalinks:
+    # year: '/:year/'
+    # month: '/:year/:month/'
+    # day: '/:year/:month/:day/'
+    category: "/categories/:name/"
+    tag: "/tags/:name/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -78,6 +93,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-archives
 
 # Collections
 collections:
@@ -106,31 +122,31 @@ defaults:
 
 # Site Author
 author:
-  name: Michael Rose
+  name: hkPanda
   picture: /images/michael-rose-photo.jpg
   email:
-  twitter: mmistakes
+  twitter: #
   links:
     - title: Twitter
-      url: https://twitter.com/mmistakes
+      url: https://twitter.com/#
       icon: fab fa-twitter-square
-    - title: Instagram
-      url: https://instagram.com/mmistakes
-      icon: fab fa-instagram
+    - title: Facebook
+      url: https://www.facebook.com/ANguCoNuong/
+      icon: fab fa-facebook-square
     - title: GitHub
-      url: https://github.com/mmistakes
+      url: https://github.com/hkmusic-film
       icon: fab fa-github-square
 
 # Footer Links
 footer_links:
   - title: Twitter
-    url: https://twitter.com/mmistakes
+    url: https://twitter.com/#
     icon: fab fa-twitter-square
-  - title: Instagram
-    url: https://instagram.com/mmistakes
-    icon: fab fa-instagram
+  - title: Facebook
+    url: https://www.facebook.com/ANguCoNuong/
+    icon: fab fa-facebook-square
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/hkmusic-film
     icon: fab fa-github-square
   - title: Feed
     url: atom.xml
