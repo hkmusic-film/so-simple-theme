@@ -1,7 +1,7 @@
 ---
 title: "Post: Quote"
 categories:
-  - Post Formats
+  - Testing
 tags:
   - Post Formats
   - quote
