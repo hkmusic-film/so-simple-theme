@@ -1,6 +1,7 @@
 ---
 title: "Edge Case: Many Categories"
 categories:
+  - Testing
   - aciform
   - antiquarianism
   - arrangement
