@@ -2,8 +2,7 @@
 title: "Layout: Excerpt (Generated with Separator Tag)"
 excerpt_separator: "<!--more-->"
 categories:
-  - Layout
-  - Uncategorized
+  - Testing
 tags:
   - content
   - excerpt
